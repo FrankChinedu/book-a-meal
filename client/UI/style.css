@@ -131,6 +131,10 @@ tbody th {
     width: 75%
 }
 
+.col-50{
+    width: 50%
+}
+
 .a-margin{
     margin: auto;
 }
@@ -173,7 +177,8 @@ tbody th {
 }
 
 .card-gray{
-    background:gray;
+    background:#808080c9;
+    /* background:gray; */
     color: #fff;
 }
 
