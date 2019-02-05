@@ -55,6 +55,10 @@ body{
     text-shadow: -3px 1px 0px #54801073;
 }
 
+.col{
+    width: 50%;
+}
+
 .row{
     display: flex;
 }
@@ -182,6 +186,10 @@ body{
 
 .m-0{
     margin: 0px;
+}
+
+.mlr{
+    margin: 0 1%;
 }
 
 .m-5{
