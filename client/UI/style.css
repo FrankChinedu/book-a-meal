@@ -89,6 +89,10 @@ body{
     text-shadow: -3px 1px 0px #54801073;
 }
 
+.bx-shadow{
+    box-shadow:  0px 0px 2px white;
+}
+
 .sm-text-shadow{
     text-shadow: 1px 2px 1px black;
 }
@@ -206,7 +210,7 @@ tbody th {
 .notify{
     width: 20px;
     height: 20px;
-    background: red;
+    background: gray;
     border-radius: 50px;
     display: block;
     margin: 0 auto;
