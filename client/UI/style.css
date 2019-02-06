@@ -203,6 +203,15 @@ tbody th {
     color: white
 }
 
+.notify{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
 .shade:hover{
     color: #32383e
 }
