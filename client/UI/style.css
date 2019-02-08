@@ -24,7 +24,9 @@ body{
 .bg-img{
     background: url('./img/bg-img.jpg');
     background-repeat: no-repeat;
+    background-position: inherit;    
     background-size: cover;
+    background-color: #808080c9;
 }
 
 .conatainer{
@@ -125,28 +127,44 @@ tbody th {
     border: 1px solid #4f4a49;
 }
 
-.col{
-    width: 50%;
-}
 
-.col-25{
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
     width: 25%;
 }
-
-.col-33{
-    width: 30%;
+.col-4 {
+    width: 33.33%;
 }
-
-.col-100{
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
     width: 100%;
 }
-.col-75{
-    width: 75%
-}
 
-.col-50{
-    width: 50%
-}
 
 .a-margin{
     margin: auto;
@@ -154,8 +172,8 @@ tbody th {
 
 .row{
     display: flex;
-    /* flex-wrap: wrap; */
 }
+
 
 .trans-white {
     background-color: #ffffff80 !important;
@@ -175,6 +193,10 @@ tbody th {
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+}
+
+.card-default{
+    max-width: 18em;
 }
 
 .card-header{
@@ -382,3 +404,24 @@ cursor: text;
 
 
 /* ********************* */
+/* media query */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones and reduced screens:  */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .col-md-full{
+      max-width: 100%;
+  }
+
+  .fix-width{
+      width: 75%
+  }
+
+  .row{
+    display: block;
+  }
+
+}
+

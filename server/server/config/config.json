@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "frank",
+    "password": "root",
+    "database": "book-a-meal-dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "frank",
+    "password": "root",
+    "database": "book-a-meal-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "frank",
+    "password": "root",
+    "database": "book-a-meal",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
